@@ -1,0 +1,23 @@
+{
+	"name": "SourceDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AzureDataLakeStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "Landing",
+				"fileSystem": "dataengbootcamp01"
+			},
+			"compression": {
+				"type": "ZipDeflate",
+				"level": "Fastest"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "ADFdataengbootcamp01",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1e5d5541-cb6d-43aa-920c-7c428de265f5",
+		"tenantId": "13ccbd67-b123-4f80-8b7e-f623a2967114"
+	}
+}

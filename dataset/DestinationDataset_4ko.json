@@ -1,0 +1,19 @@
+{
+	"name": "DestinationDataset_4ko",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AzureDataLakeStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "Staging",
+				"fileSystem": "csv"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
